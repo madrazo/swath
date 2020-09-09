@@ -1,3 +1,7 @@
+2020-09-09  madrazo
+	Added VS2017 compilation
+
+
 2020-08-13  Theppitak Karoonboonyanan  <theppitak@gmail.com>
 
 	Fix 'make distcheck' failure.

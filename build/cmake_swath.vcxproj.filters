@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\nmmdlctrunk\swath-windows\src\wordseg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\abswordseg.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\convutil.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dict.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\filefilter.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\filterhtml.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\filterlatex.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\filterrtf.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\longwordseg.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\maxwordseg.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\conv\tis620.cxx">
+      <Filter>conv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\conv\utf8.cxx">
+      <Filter>conv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\conv\conv.cxx">
+      <Filter>conv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\conv\convfact.cxx">
+      <Filter>conv</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\datrie\datrie\alpha-map.c">
+      <Filter>datrie</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\datrie\datrie\darray.c">
+      <Filter>datrie</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\datrie\datrie\dstring.c">
+      <Filter>datrie</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\datrie\datrie\fileutils.c">
+      <Filter>datrie</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\datrie\datrie\tail.c">
+      <Filter>datrie</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\datrie\datrie\trie.c">
+      <Filter>datrie</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\datrie\datrie\trie-string.c">
+      <Filter>datrie</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\nmmdlctrunk\swath-windows\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{68DC6B26-45F3-3B23-B73D-19047C35FCD6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{d89c46b0-238e-4fd6-8400-43493c12f100}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="conv">
+      <UniqueIdentifier>{be0f1250-914b-4dfb-ab00-b448321f43d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="datrie">
+      <UniqueIdentifier>{ce01d5bf-0b49-485c-b3a8-c2776d758a26}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\abswordseg.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\filefilter.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\convutil.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\dict.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\longwordseg.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\filterhtml.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\filterlambda.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\filterlatex.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\filterrtf.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\filterx.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\maxwordseg.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\wordstack.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\utils.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\worddef.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\conv\convkit.h">
+      <Filter>conv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\conv\tis620.h">
+      <Filter>conv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\conv\tischar.h">
+      <Filter>conv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\conv\unichar.h">
+      <Filter>conv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\conv\utf8.h">
+      <Filter>conv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\conv\conv.h">
+      <Filter>conv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\conv\convfact.h">
+      <Filter>conv</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\datrie\datrie\typedefs.h">
+      <Filter>datrie</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\datrie\datrie\alpha-map.h">
+      <Filter>datrie</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\datrie\datrie\alpha-map-private.h">
+      <Filter>datrie</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\datrie\datrie\darray.h">
+      <Filter>datrie</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\datrie\datrie\dstring.h">
+      <Filter>datrie</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\datrie\datrie\dstring-private.h">
+      <Filter>datrie</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\datrie\datrie\fileutils.h">
+      <Filter>datrie</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\datrie\datrie\tail.h">
+      <Filter>datrie</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\datrie\datrie\trie.h">
+      <Filter>datrie</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\datrie\datrie\triedefs.h">
+      <Filter>datrie</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\datrie\datrie\trie-private.h">
+      <Filter>datrie</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\datrie\datrie\trie-string.h">
+      <Filter>datrie</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

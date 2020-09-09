@@ -14,3 +14,5 @@ for f in ${TL_HYPH_SRC_DIR}/tdict*.txt; do
   sed 's/-//g' $f > `basename $f`
 done
 
+# Windows swd
+# sed 's/-//g' tdict-std.txt > tdict-std.bin

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LocalDebuggerCommandArguments>-v -m max -d E:\nmmdlctrunk\swath-windows\data\tdict-std.bin -u u,u -v &lt;long.txt&gt; long-out.txt</LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory>E:\nmmdlctrunk\swath-windows\tests</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <LocalDebuggerCommandArguments>-v -m max -d E:\nmmdlctrunk\swath-windows\data\tdict-std.bin -u u,u -v &lt;long.txt&gt; long-out.txt</LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory>E:\nmmdlctrunk\swath-windows\tests</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LocalDebuggerCommandArguments>-v -m max -d E:\nmmdlctrunk\swath-windows\data\tdict-std.bin -u u,u -v &lt;long.txt&gt; long-out.txt</LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory>E:\nmmdlctrunk\swath-windows\tests</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <LocalDebuggerCommandArguments>-v -m max -d E:\nmmdlctrunk\swath-windows\data\tdict-std.bin -u u,u -v &lt;long.txt&gt; long-out.txt</LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory>E:\nmmdlctrunk\swath-windows\tests</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NXTargetName>Default</NXTargetName>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,4 @@
+tool swathdic add-list -e utf-8 tdict-std.txt
+swath.exe -m max -d tdict-std.bin -u u,u -v <long.txt> long-out.txt
+
+

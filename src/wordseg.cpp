@@ -60,8 +60,8 @@ OpenDict (Dict* dict, const char* dictpath)
       if (dict->open ("."))
         return true;
 
-      if (dict->open (WORDSEGDATA_DIR))
-        return true;
+      //if (dict->open (WORDSEGDATA_DIR))
+      //  return true;
     }
 
   return false;
@@ -125,7 +125,7 @@ WordSegmentation (AbsWordSeg* wseg, const Dict* dict, const wchar_t* wbr,
 static void
 Version ()
 {
-  printf ("swath " VERSION "\n");
+  //printf ("swath " VERSION "\n");
   printf
     ("Copyright (C) 2001-2006 Phaisarn Charoenpornsawat <phaisarn@nectec.or.th>\n"
      "Copyright (C) 2001-2014 Theppitak Karoonboonyanan <theppitak@gmail.com>\n"
